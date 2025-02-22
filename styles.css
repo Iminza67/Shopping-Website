@@ -1,0 +1,204 @@
+ /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+
+        /* Header */
+        header {
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+            text-transform: uppercase;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 900;
+
+
+        }
+
+        .header-title {
+            font-size: 30px;
+            margin: 0;
+            color: aqua;
+            font-weight: 900;
+            white-space: nowrap;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        form {
+            display: inline-block;
+            flex-grow: 1;
+            max-width: 600px;
+        }
+
+        .header-icons a {
+            color: #343a40;
+            font-size: 20px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .header-icons a:hover {
+            color: #ff5722;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background-color: #343a40;
+            color: #fff;
+            padding: 10px 0;
+            z-index: 1050;
+        }
+
+        .nav-link {
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .nav-link:hover {
+            color: #ff5722;
+        }
+
+        .carousel-inner img {
+            max-height: 300px;
+            object-fit: contain;
+        }
+
+        .carousel {
+            margin: 0 auto;
+        }
+
+        .carousel-item img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .carousel-item img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .rounded-circle {
+            overflow: hidden;
+        }
+
+        .rounded-circle img {
+            object-fit: cover;
+        }
+
+        .icon-container {
+            width: 80px;
+            height: 80px;
+        }
+
+        .icon-container img {
+            width: 70%;
+            height: auto;
+        }
+
+        .icon-hover {
+            display: inline-block;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .icon-hover:hover {
+            transform: translate(-5px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h6 {
+            font-size: 0.9rem;
+        }
+
+        /* Product Gallery */
+        .product-card {
+            background-color: #fff;
+            color: #343a40;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .product-card img:hover {
+            transform: scale(1.05);
+        }
+
+        .product-card:hover {
+            transform: scale(1.02);
+        }
+
+        .product-title {
+            font-weight: bold;
+            font-size: 16px;
+            margin: 0;
+        }
+
+        .product-price {
+            text-align: center;
+            color: #ff5722;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        .btn-primary {
+            background-color: #ff5722;
+            border-color: #ff5722;
+        }
+
+        .btn-primary:hover {
+            background-color: #343a40;
+            border-color: #343a40;
+        }
+
+        /* Cart Button */
+        .fixed-bottom {
+            z-index: 1030;
+        }
+
+        /* Checkout Form */
+        #checkoutForm {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #customAlert {
+            background-color: #28a745;
+            /* Green color */
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 9999;
+            display: none;
+        }
+
+
+        /* Footer */
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #343a40;
+            /* Dark Gray */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            z-index: 1030;
+        }
